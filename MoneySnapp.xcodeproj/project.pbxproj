@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2B9A98C32142D99200F366E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A98C22142D99200F366E6 /* AppDelegate.swift */; };
-		2B9A98C52142D99200F366E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A98C42142D99200F366E6 /* ViewController.swift */; };
-		2B9A98C82142D99200F366E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A98C62142D99200F366E6 /* Main.storyboard */; };
+		2B9A98C52142D99200F366E6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A98C42142D99200F366E6 /* SignInViewController.swift */; };
 		2B9A98CB2142D99200F366E6 /* MoneySnapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A98C92142D99200F366E6 /* MoneySnapp.xcdatamodeld */; };
 		2B9A98CD2142D99300F366E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A98CC2142D99300F366E6 /* Assets.xcassets */; };
 		2B9A98D02142D99300F366E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A98CE2142D99300F366E6 /* LaunchScreen.storyboard */; };
 		2B9A98DB2142D99300F366E6 /* MoneySnappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A98DA2142D99300F366E6 /* MoneySnappTests.swift */; };
 		2B9A98E62142D99300F366E6 /* MoneySnappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A98E52142D99300F366E6 /* MoneySnappUITests.swift */; };
+		2B9A98F42142DAA700F366E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B9A98F32142DAA700F366E6 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,7 @@
 /* Begin PBXFileReference section */
 		2B9A98BF2142D99200F366E6 /* MoneySnapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneySnapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9A98C22142D99200F366E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B9A98C42142D99200F366E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B9A98C72142D99200F366E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B9A98C42142D99200F366E6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		2B9A98CA2142D99200F366E6 /* MoneySnapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneySnapp.xcdatamodel; sourceTree = "<group>"; };
 		2B9A98CC2142D99300F366E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B9A98CF2142D99300F366E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		2B9A98E12142D99300F366E6 /* MoneySnappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneySnappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B9A98E52142D99300F366E6 /* MoneySnappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneySnappUITests.swift; sourceTree = "<group>"; };
 		2B9A98E72142D99300F366E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9A98F32142DAA700F366E6 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +99,10 @@
 		2B9A98C12142D99200F366E6 /* MoneySnapp */ = {
 			isa = PBXGroup;
 			children = (
-				2B9A98C22142D99200F366E6 /* AppDelegate.swift */,
-				2B9A98C42142D99200F366E6 /* ViewController.swift */,
-				2B9A98C62142D99200F366E6 /* Main.storyboard */,
+				2BDCFB622146A149005610A1 /* Controller */,
+				2BDCFB612146A145005610A1 /* View */,
+				2BDCFB602146A13E005610A1 /* Model */,
 				2B9A98CC2142D99300F366E6 /* Assets.xcassets */,
-				2B9A98CE2142D99300F366E6 /* LaunchScreen.storyboard */,
 				2B9A98D12142D99300F366E6 /* Info.plist */,
 				2B9A98C92142D99200F366E6 /* MoneySnapp.xcdatamodeld */,
 			);
@@ -126,6 +125,31 @@
 				2B9A98E72142D99300F366E6 /* Info.plist */,
 			);
 			path = MoneySnappUITests;
+			sourceTree = "<group>";
+		};
+		2BDCFB602146A13E005610A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2BDCFB612146A145005610A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B9A98CE2142D99300F366E6 /* LaunchScreen.storyboard */,
+				2B9A98F32142DAA700F366E6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2BDCFB622146A149005610A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B9A98C22142D99200F366E6 /* AppDelegate.swift */,
+				2B9A98C42142D99200F366E6 /* SignInViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9A98F42142DAA700F366E6 /* Main.storyboard in Resources */,
 				2B9A98D02142D99300F366E6 /* LaunchScreen.storyboard in Resources */,
 				2B9A98CD2142D99300F366E6 /* Assets.xcassets in Resources */,
-				2B9A98C82142D99200F366E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B9A98C52142D99200F366E6 /* ViewController.swift in Sources */,
+				2B9A98C52142D99200F366E6 /* SignInViewController.swift in Sources */,
 				2B9A98CB2142D99200F366E6 /* MoneySnapp.xcdatamodeld in Sources */,
 				2B9A98C32142D99200F366E6 /* AppDelegate.swift in Sources */,
 			);
@@ -297,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2B9A98C62142D99200F366E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B9A98C72142D99200F366E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B9A98CE2142D99300F366E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
